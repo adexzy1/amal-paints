@@ -1,0 +1,185 @@
+/***************** About us page Style**********/
+.contact{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.cot{
+    margin:0; 
+}
+#sub{
+    padding-top: 5rem;
+}
+#sub p{
+    text-align: left;
+    display: inline-block;
+    padding-left: 5px;
+}
+#sub i{
+    font-size:1.5rem ;
+    color: #56c596;
+}
+#sub div{
+    margin: 0px auto;
+    display: block;
+    text-align: center;
+}
+#sub div a{
+    color: white;
+}
+.cot h2{
+    margin: 0;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+.side1{
+    background-image: url('../img/contact b.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 15rem;
+    background-attachment: fixed;
+}
+label{
+    display: block;
+    padding: 1rem;
+}
+.side2{
+    color: black;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.side2 h3{
+    color: #111e6c;
+    font-weight: 500;
+}
+.side2 p{
+    color: #56c596;
+}
+.side2 input{
+    width: 300px;
+    height: 23px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #56c596;
+    text-align: center;
+    margin: 0;
+}
+.submit{
+    padding: 1rem 3rem;
+    border-radius: 30px;
+    border: 1px solid #56c596;
+    outline: none;
+    background-color: #111e6c;
+    color: white;
+}
+.submit:hover{
+    background-color: #56c596;
+    color: white;
+}
+textarea{
+    border: 0;
+    border-bottom: 1px solid #56c596;
+    outline: none;
+    text-align: center;
+}
+@media only screen and (min-width:665px){
+    .side2 input{
+        padding: 10px 10rem;
+    }
+    .submit{
+        padding:1rem 6rem;
+    }
+    .side1{
+        background-attachment: fixed;
+    }
+}
+@media only screen and (min-width:768px){
+    .side1{
+        background: none;
+        background-color: #111e6c;
+        text-align: left;
+        position: absolute;
+        box-shadow: 0px 0px 8px 2px rgba(99, 93, 93, 0.253);
+        left: -3rem;
+        top: 2rem;
+        height: 27rem;
+        width: 17rem;
+        border-radius: 20px;
+    }
+    .side1 h2, .side1 p, .side1 i{
+        text-align: left;
+    }
+    .side2{
+        margin-bottom: 0;
+        text-align: left;
+        margin-left: 17rem;
+    }
+    .side2 h3, .side2 p{
+        margin-left: 1rem;
+    }
+    .submit{
+        padding:0.7rem 2.7rem;
+        margin-bottom: 4rem;
+        margin-left: 1rem;
+    }
+    .side2 input{
+        text-align: left;
+        width: 300px;
+        padding: 0;
+        padding-left: 3px;
+    }
+    .cot{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        background-color: white;
+        box-shadow: 0px 0px 8px 7px rgba(114, 110, 110, 0.274);
+        margin: 5rem auto;
+        position: relative;
+        width: 40rem;
+        border-radius: 20px;
+    }
+    body{
+        background-color: #56c596;
+    }
+    #sub1 p{
+        display: inline-flex;
+    }
+    #sub div{
+        text-align: left;
+        margin-left: 1rem;
+        padding-top: 2rem;
+    }
+    #sub h2{
+        margin-left:3rem ;
+    }
+    textarea{
+        text-align: left;
+    }
+}
+@media only screen and (min-width:1000px){
+    .cot{
+        width: 45rem;
+    }
+    .side2{
+        margin-left: 18rem;
+    }
+    .side1{
+        left: -8rem;
+        width: 20rem;
+    }
+    .side2 input{
+        width: 300px;
+    }
+    #sub div{
+        text-align: left;
+        margin-left: 3rem;
+        padding-top: 2rem;
+    }
+    #sub h2{
+        margin-left:3rem ;
+    }
+}

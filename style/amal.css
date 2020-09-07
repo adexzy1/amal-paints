@@ -1,0 +1,334 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: helvetica;
+    scroll-behavior: smooth;
+}
+/****** Header Content******/
+.container{
+    width: 100%;
+}
+.camera_wrap img{
+    max-width: 100%;
+}
+.header{
+    background-color: #111e6c;
+}
+.header img{
+    margin: 0 auto;
+    width: 10rem;
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+.desktop-menu{
+    display: none;
+}
+.menu{
+    list-style: none;
+    background-color: black;
+   margin: 30px;
+   margin-bottom: 0px;
+   position:relative;
+   bottom:20px;
+   color: white;
+   border-radius: 30px;
+}
+.menu p{
+    color:  white;
+    display: inline-flex;
+    padding: 15px 10px 10px 12px;
+    font-size: 20px;
+}
+.ion-drag{
+    float: right;
+    padding: 16px 12px 10px 10px;
+    font-size: 20px;
+}
+.menu ul{
+    background-color: white;
+    position: relative;
+    top: 5px;
+    bottom: 10px;
+    padding-left: 0px;
+    display: none;
+    margin-bottom: 0;
+}
+.menu ul li{
+    list-style: none;
+    color:black;
+    list-style: none;
+    display: block;
+}
+.menu ul li a{
+    text-decoration: none;
+    color:black;
+    display: block;
+    padding: 2rem;
+    border-bottom: 1px solid grey;
+}
+.menu ul li a:hover{
+    color: white;
+    background-color: black;
+}
+/******* Body Content*******/
+.accordon{
+    text-align: center;
+    padding: 30px;
+}
+.accordon h3{
+    margin-top: 50px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #111e6c;
+}
+.ac1{
+    margin-bottom: 5rem;
+}
+.ac1 img{
+    position: relative;
+    top: -57px;
+}
+.ac1 p, .ac2 p{
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+.ac2 img{
+    position: relative;
+    top: -57px; 
+}
+.ac3 #line{
+    display: block;
+    position: relative;
+    top: -53px;
+    margin: 0 auto;
+}
+.ac3 img{
+    margin-top: 30px;
+    margin-bottom:10px ;
+}
+.ac3 #product{
+    max-width: 100%;
+    height: auto;
+}
+.ac4 img{
+    position: relative;
+    top: -53px;
+}
+.ac5 img{
+    position: relative;
+    top: -53px;
+}
+.btn{
+    display: block;
+}
+.btn a{
+    display: block;
+    text-decoration: none;
+    color:#111e6c;
+    border: 1px solid #111e6c;
+    padding: 20px;
+    border-radius:30px;
+}
+.btn a:hover{
+    background-color: #56c596;
+    color: white;
+    transition: 1s ease;
+    border: 1px solid #56c596;
+}
+.ac4{
+    font-family: Helvetica;
+    position: relative;
+}
+.quality{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.ac4 i{
+    color: #56c596;
+    font-size: 80px;
+}
+.ac4 h5{
+    font-size:18px;
+    font-weight: bold;
+}
+.quality{
+    margin-top: 2rem;
+}
+.ac5{
+    position: relative;
+    margin-top: 3rem;
+}
+.ac5 img{
+    height: auto;
+   max-width:100%;
+}
+.ac5 div{
+    margin-bottom: 5em;
+    margin-top: 2rem;
+}
+.ac5 div h5{
+    font-size: 20px;
+    font-weight: bold;
+}
+.management{
+    margin-bottom: -80em;
+}
+.management div img{
+ margin-bottom: -50px;
+ margin-top: 5em;
+}
+#m4{
+    margin-bottom: -40px;
+}
+hr{
+    width: 10rem;
+    padding: 0;
+    background-color: #111e6c;
+    padding: 0.5px;
+    text-align: center;
+    margin: 2px auto;
+    color: white;
+}
+
+/**** footer content*****/
+footer{
+    background-color: #111e6c;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
+    padding: 20px 20px 0 20px;
+    color: white;
+    margin-bottom: 0px;
+}
+footer ul{
+    text-align: center;
+    padding:10px 20px;
+    margin-bottom: 0px;
+}
+footer ul li{
+    list-style: none;
+    color: white;
+    display: inline-flex;
+    text-align: center;
+    font-size: 12px;
+   
+    padding: 10px 10px;
+}
+footer ul li a{
+    text-decoration: none;
+    color: white;
+} 
+footer ul li a:hover{
+    color: #56c596;
+    text-decoration: none;
+}
+@media only screen and (min-width:530px){
+    .management img{
+        padding-left: 5em;
+        padding-right: 5em;
+        margin-top: 20rem;
+    }
+    .ac5, .ac4, .ac3, .ac2{
+        margin-top: 7rem;
+    }
+    .ac1{
+        margin-top: 7rem;
+    }
+    .quality p{
+        padding-left:3em ;
+        padding-right: 3em;
+    }
+}
+@media only screen and (min-width:768px){
+    .header{
+        display: block;
+    }
+    .header img{
+        margin: 0px;
+        display: inline-block;
+        padding-top: 0px;
+        padding: 20px;
+        margin-left: 2em;
+        width: 12.5rem;
+    }
+    .menu{
+        background: none;
+        float: right;
+        margin-left: px;
+        margin-bottom: 0px;
+        margin-top: 10px;
+    }
+    .menu p, .menu i{
+        display: none;
+    }
+    #drop{
+        display: inline-flex;
+        background: none;
+    }
+    #drop li{
+        margin-top: 30px;
+        margin-right:0 ;
+    }
+    #drop li a{
+        border: 0px;
+        color: white;
+        display: inline-flex;
+        padding: 15px;
+        border-radius: 30px;
+    }
+    #drop li a:hover{
+        background-color: #56c596;
+        transition: 1s ease;
+    }
+    .quality{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        grid-gap: 10px;
+        
+    }
+    .management{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-gap: 20px;
+    }
+    .accordon .ac1,
+    .accordon .ac2
+    {
+        padding-left: 8em;
+        padding-right: 8em;
+    }
+    .ac3 #product,
+    .ac3 .btn{
+        padding-left: 5em;
+        padding-right: 5em;
+    }
+    .management{
+        padding-left: 5em;
+        padding-right: 5em;
+        margin-bottom: -80em;
+    }
+    .management img{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+}
+@media only screen and (min-width:785px){
+    .quality p{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+@media only screen and (min-width:1000px){
+    #drop li{
+        margin-right:3rem ;
+    }
+    .header img{
+        margin-left: 3rem;
+    }
+}
+
